@@ -3,14 +3,14 @@
 ### This guide will help you establish the basics of standing up the minimum necessary resources in Azure to get a simple bot running. We call it the Echo Bot because it echoes back the text input by the user. 
 
 When you've completed this tutorial, you should expect to see this:
-<br/><img src="../assets/screens/test_web_chat_hello.jpg" /><br/><br/>
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/test_web_chat_hello.jpg" /><br/><br/>
 
 ### Section 1: Create the Bot Services in Azure Portal
 
 1. Browse to [https://portal.azure.com](https://portal.azure.com) and log in
 
 1. Click the __Create Resource__ button in the top left corner and search for `Web App Bot`
-<br/><img src="../assets/screens/web_bot_app_resource_search.jpg"/>
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/web_bot_app_resource_search.jpg"/>
 	- Your first result should be __Web App Bot__ - go ahead and click on it
 
 1. Click the __Create__ button at the bottom
@@ -32,7 +32,7 @@ When you've completed this tutorial, you should expect to see this:
 1. Ensure `SDK v4` is selected, `C#` as the language and choose `Echo Bot` as the template
 
 1. Click __Select__ at the bottom to lock in the `Echo Bot` as the template to use
-<br/><img src="../assets/screens/bot_template_echo_bot.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/bot_template_echo_bot.jpg" />
 
 1. Select an existing __App service plan__ or create a new one
 	- why do you need an App Service Plan? to host the App Service where the bot endpoint will be running
@@ -42,16 +42,16 @@ When you've completed this tutorial, you should expect to see this:
 	- note - we won't be using this for this sample but the App ID and password are needed for authentication and to connect your bot to 3rd party channels, like Teams)
 
 1. Ensure the bot template is now set to `Echo Bot (C#)` and click the __Create__ button
-<br/><img src="../assets/screens/new_web_app_bot.jpg" width="60%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/new_web_app_bot.jpg" width="60%" />
 
 1. Grab a coffee because it'll take a few minutes for Azure to create all the necessary resources but you should see a notification stating your deployment is underway
-<br/><img src="../assets/screens/deployment_in_progress.jpg" width="50%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deployment_in_progress.jpg" width="50%" />
 
 1. Once your deployment finishes, click on the __Go to resource__ button or search for the name of the resource group in the search bar
-<br/><img src="../assets/screens/deployment_succeeded.jpg" width="50%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deployment_succeeded.jpg" width="50%" />
 
 1. You should now be in the Resource Group which lists all of the services created for your bot to run
-<br/><img src="../assets/screens/resource_group_echo_bot.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/resource_group_echo_bot.jpg" />
 
 <br/>
 
@@ -62,7 +62,7 @@ In addition to all the new services that were just created to support your new b
 1. Click on your bot (the resource type will be `Web App Bot`)
 
 1. Let's do a quick test to make sure everything is working by clicking on __Test in Web Chat__
-<br/><img src="../assets/screens/test_web_chat_hello.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/test_web_chat_hello.jpg" />
 
 1. Type a word and ensure the bot echoes back the same word you typed
 

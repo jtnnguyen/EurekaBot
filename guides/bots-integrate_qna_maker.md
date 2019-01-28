@@ -3,7 +3,7 @@
 ### This guide will help you integrate an existing QnA Maker knowledge base into your bot.
 
 When you've completed this tutorial, you should expect to see this:
-<br/><img src="../assets/screens/embedded_web_chat_qna.jpg" /><br/><br/>
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/embedded_web_chat_qna.jpg" /><br/><br/>
 
 ### Section 1: Modify the .bot Configuration File
 
@@ -113,7 +113,7 @@ We need to add the QnA Maker endpoint key, host and knowledge base ID to the .bo
 1. Launch the Bot Framework Emulator and ensure __development__ is selected as the endpoint
 
 1. Type a question phrased similar to a question in your knowledge base and confirm the appropriate answer was send back by the bot
-<br/><img src="../assets/screens/bot_framework_emulator_qna_local.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/bot_framework_emulator_qna_local.jpg" />
 
 
 ### Section 3: Deploy to Azure
@@ -141,14 +141,14 @@ We need to add the QnA Maker endpoint key, host and knowledge base ID to the .bo
 1. Click on the __Application settings__ section
 
 1. Scroll down to find the `botFileSecret` key and set the value to the key generated in the previous step
-<br/><img src="../assets/screens/application_settings_bot_file_secret.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/application_settings_bot_file_secret.jpg" />
 
 1. Commit your changes to git and push to your remote repository to kick off a new build and deploy
 	- note - it is not advised to commit the `appsettings.json` file containing the `botFileSecret`
 	- you can confirm the automated pipeline is working by visiting the __Deployment Center__ section of the App Service hosting your bot in the Azure Portal
 
 1. Test your bot in the web chat and the Bot Framework Emulator to ensure your public endpoint is functioning properly
-<br/><img src="../assets/screens/bot_framework_emulator_qna_production.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/bot_framework_emulator_qna_production.jpg" />
 
 <br/>
 
@@ -172,7 +172,7 @@ Now that we have a working public endpoint, we can add enable one of the several
 1. Click on the __Channels__ section
 
 1. Click on the __Edit__ link under Web Chat
-<br/><img src="../assets/screens/web_chat_channel_settings.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/web_chat_channel_settings.jpg" />
 
 1. Here you'll find 2 secrets and HTML embed code - copy the value of the `src` property of the `iframe` and paste it over `<YOUR_BOT_EMBED_CODE_SRC>`
 
@@ -186,6 +186,6 @@ Now that we have a working public endpoint, we can add enable one of the several
 1. In a web browser, navigate to `http://localhost:3978` and click on the chat icon in the lower right corner
 
 1. Ask a question and verify the appropriate answer is returned by the bot
-<br/><img src="../assets/screens/embedded_web_chat_qna.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/embedded_web_chat_qna.jpg" />
 
 1. Commit and push your code to your repository to trigger a build and deploy in Azure, then retest against your public endpoint

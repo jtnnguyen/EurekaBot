@@ -3,7 +3,7 @@
 ### This guide will help you get local debugging working so you can step through code. Then we'll deploy your bot using CI/CD against your code repository. 
 
 When you've completed this tutorial, you should expect to see this:
-<br/><img src="../assets/screens/echo_bot_deploy_test_webchat.jpg" /><br/><br/>
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/echo_bot_deploy_test_webchat.jpg" /><br/><br/>
 
 ### Section 1: Download the Generated Boilerplate Code
 
@@ -16,12 +16,12 @@ When you've completed this tutorial, you should expect to see this:
 1. Click on the __Build__ section
 
 1. Click the __Download Bot source code__ button
-<br/><img src="../assets/screens/download_bot_source_code.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/download_bot_source_code.jpg" />
 
 1. It can take up to 5 - 10 minutes to create the .zip file of the generated Echo bot code but it's important __NOT__ to navigate anywhere or close the window that is preparing the download URI
 
 1. Click the __Download bot source code__ button once it shows up and save the file to a local directory, then unzip
-<br/><img src="../assets/screens/download_source_code_button.jpg" width="50%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/download_source_code_button.jpg" width="50%" />
 
 1. Clone [this repository](https://github.com/rob-derosa/EurekaBot) `git clone https://github.com/rob-derosa/EurekaBot.git`
 
@@ -32,7 +32,7 @@ When you've completed this tutorial, you should expect to see this:
 
 1. In the `appsettings.json` file, specify the path to the `.bot` file you just copied over as well as the bot file secret
     - you can find the bot file path and secret in the Application Settings of web bot in the Azure Portal
-<br/><img src="../assets/screens/application_settings_bot_info.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/application_settings_bot_info.jpg" />
 
 example:
 ```
@@ -51,7 +51,7 @@ example:
 1. Ensure __`development`__ is selected as the endpoint to hit
 
 1. Type a message and hit enter - the bot should echo the message right back to you
-<br/><img src="../assets/screens/bot_framework_echo_local.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/bot_framework_echo_local.jpg" />
 
 <br/>
 
@@ -72,19 +72,19 @@ example:
 1. Choose the Source Control Provider (i.e. Github) where your code is checked in and click __Continue__
 
 1. Choose __App Service Kudu build server__ as the Build Provider and click __Continue__
-<br/><img src="../assets/screens/deploy_select_kudu.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deploy_select_kudu.jpg" />
 
 1. Complete any settings specific to the source control provider selected in the previous step such as the organization, repository name and branch to watch and click __Continue__
-<br/><img src="../assets/screens/deploy_source_control_provider_settings.jpg" width="70%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deploy_source_control_provider_settings.jpg" width="70%" />
 
 1. If all the settings look good, click the __Finish__ button - this will create the connection to the repo and automatically build and deploy your project whenever you push a commit to your master branch
-<br/><img src="../assets/screens/app_service_deployment_center_success.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/app_service_deployment_center_success.jpg" />
 
 1. Test that your bot is working properly by navigating to your Web App Bot and select the __Test in web chat__ section
-<br/><img src="../assets/screens/echo_bot_deploy_test_webchat.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/echo_bot_deploy_test_webchat.jpg" />
 If everything worked, you should see the same behavior as you did locally - the bot should echo back the message you typed
 
 1. We can also test using the Bot Framework Emulator - just select the `production` endpoint this time and send a message
-<br/><img src="../assets/screens/bot_framework_echo_production.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/bot_framework_echo_production.jpg" />
 
 Congrats! You are now free to make changes, commit and push them and your changes will automatically be deployed to your public instance

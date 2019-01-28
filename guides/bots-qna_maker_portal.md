@@ -4,7 +4,7 @@
 #### Note - this guide assumes you already have a [working bot deployed in Azure](bots-echo.md)
 
 When you've completed this tutorial, you should expect to see this:
-<br/><img src="../assets/screens/test_knowledge_base.jpg" /><br/><br/>
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/test_knowledge_base.jpg" /><br/><br/>
 
 ### What is QnA Maker?
 
@@ -25,7 +25,7 @@ Azure's QnA Maker service makes it easy to import existing knowledge base data (
 1. Click the __Create Resource__ button in the top left corner and search for `QnA Maker` and click on the first result
 
 1. Click the __Create__ button at the bottom
-<br/><img src="../assets/screens/new_qna_maker_service.jpg" width="60%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/new_qna_maker_service.jpg" width="60%" />
 
 1. Enter a unique value for the __QnA Maker Service__
 	
@@ -48,13 +48,13 @@ Azure's QnA Maker service makes it easy to import existing knowledge base data (
 1. Click the __Create__ button at the bottom
 
 1. Grab a coffee because it'll take a few minutes for Azure to create all the necessary resources but you should see a notification stating your deployment is underway
-<br/><img src="../assets/screens/deployment_in_progress.jpg" width="50%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deployment_in_progress.jpg" width="50%" />
 
 1. Once your deployment finishes, click on the __Go to Resource__ button or search for the name of the resource group in the search bar
-<br/><img src="../assets/screens/deployment_succeeded.jpg" width="50%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/deployment_succeeded.jpg" width="50%" />
 
 1. You should now be in the Resource Group which lists all of the services created for your QnA Maker service to run
-<br/><img src="../assets/screens/resource_group_qnamaker_services.jpg" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/resource_group_qnamaker_services.jpg" />
 
 1. Click on the QnA Maker Cognitive Service you just created and then click on the __Keys__ section
 
@@ -77,7 +77,7 @@ Azure's QnA Maker service makes it easy to import existing knowledge base data (
 1. Select the __Azure QnA service__ you created in Section 1 above
 
 1. In STEP 3, give your new knowledge base a unique name
-<br/><img src="../assets/screens/new_knowledge_base.jpg" width="60%" />
+<br/><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/new_knowledge_base.jpg" width="60%" />
 
 1. In STEP 4, add some existing FAQs to populate your knowledge base with info from an online source using a URL or upload a document or spreadsheet containing this data
     - if you don't have existing data to import on hand, search online for a FAQ page from your company
@@ -94,7 +94,7 @@ Azure's QnA Maker service makes it easy to import existing knowledge base data (
 ## Section 3: Train, Test and Publish the Knowledge Base  
 
 1. Before the knowledge base can be used, we need to save and train the model first - click the __Save and Train__ button at the top 
-<br /><img src="../assets/screens/save_and_train_button.jpg" width="80%" />
+<br /><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/save_and_train_button.jpg" width="80%" />
 
 1. It will take a few seconds to complete - once ready, click the __Test__ button at the top
 
@@ -104,7 +104,7 @@ Azure's QnA Maker service makes it easy to import existing knowledge base data (
     - you can change the answer to the question if it's incorrect
 	- you can add additional phrasing to an answer if there is more than one way of asking that question
 	- if you make any changes, don't forget to save and re-train
-<br /><img src="../assets/screens/test_knowledge_base.jpg" />
+<br /><img src="https://raw.githubusercontent.com/rob-derosa/EurekaBotAssets/master/screens/test_knowledge_base.jpg" />
 
 1. Click the __PUBLISH__ button at the top
 
