@@ -23,7 +23,7 @@ When you've completed this tutorial, you should expect to see this:
 1. Click the __Download bot source code__ button once it shows up and save the file to a local directory, then unzip
 <br/><img src="../assets/screens/download_source_code_button.jpg" width="50%" />
 
-1. Clone [this repository](https://github.com/aditmer/EurekaChatbot) `git clone https://github.com/aditmer/EurekaChatbot.git`
+1. Clone [this repository](https://github.com/rob-derosa/EurekaBot) `git clone https://github.com/rob-derosa/EurekaBot.git`
 
 1. In VS Code, open the project located at `src/start_here/EurekaBot` - this will be our baseline for our QnA Bot
 
