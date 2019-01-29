@@ -7,7 +7,7 @@ Within a few minutes, we'll be able to send a question to our new QnA Maker know
 We'll also explore [rich media cards](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-add-media-attachments),
 [middleware](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-middleware) for conversation logging
 and we'll tie it all together by [embedding the bot in a web page](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) so external users can interact with it.
-<br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" />
+<br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" />
 
 ### Prerequisites
 - Azure Subscription with permissions to create resources
