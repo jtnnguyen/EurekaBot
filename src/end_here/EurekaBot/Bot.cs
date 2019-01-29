@@ -47,6 +47,7 @@ namespace Microsoft.EurekaBot
 
 						foreach (var newMember in turnContext.Activity.MembersAdded)
 						{
+							//Only send a notification to new members other than the bot
 							if (newMember.Id != turnContext.Activity.Recipient.Id)
 							{
 								await turnContext.SendActivityAsync(reply);
