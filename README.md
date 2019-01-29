@@ -24,27 +24,27 @@ and we'll tie it all together by [embedding the bot in a web page](https://docs.
 
 ### Step 2: Create bot resources in Azure Portal
 
-[Follow these instructions to establish a working bot](https://github.com/rob-derosa/EurekaBotAssets/blob/master/guides/echo_bot_azure.md). This way, you'll know your bot services are deployed and operational so now we can focus on code.
+[Follow these instructions to establish a working bot](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/echo_bot_azure.md). This way, you'll know your bot services are deployed and operational so now we can focus on code.
 
 
 ### Step 3: Build bot and deploy with CI/CD
 
-[Follow these instructions to get your local dev environment configured](https://github.com/rob-derosa/EurekaBotAssets/blob/master/guides/local_build_and_deploy.md). In this section, we'll set up local debugging and testing, then configure a continuous pipeline when new code is pushed.
+[Follow these instructions to get your local dev environment configured](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/local_build_and_deploy.md). In this section, we'll set up local debugging and testing, then configure a continuous pipeline when new code is pushed.
 
 
 ### Step 4: Create a QnAMaker knowledge base from an existing FAQ
 
-[Follow these instructions to add a QnA Maker knowledge base](https://github.com/rob-derosa/EurekaBotAssets/blob/master/guides/qna_maker_portal.md). Add some question and answer intelligence into your bot by following these simple steps (your IT/HR/Support/etc teams will buy you lunch :)
+[Follow these instructions to add a QnA Maker knowledge base](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/qna_maker_portal.md). Add some question and answer intelligence into your bot by following these simple steps (your IT/HR/Support/etc teams will buy you lunch :)
 
 
 ### Step 5: Integrate QnA Maker into your bot code
 
-[Follow these instructions to integrate a QnA Maker knowledge base into a bot](https://github.com/rob-derosa/EurekaBotAssets/blob/master/guides/integrate_qna_maker.md). Let's connect all the dots now that we have a knowledge base and a working bot.
+[Follow these instructions to integrate a QnA Maker knowledge base into a bot](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/integrate_qna_maker.md). Let's connect all the dots now that we have a knowledge base and a working bot.
 
 
 ### Step 6: Add rich media cards and conversation logging to your bot
 
-[Add a rich media card welcome message and log conversations to external datastore](https://github.com/rob-derosa/EurekaBotAssets/blob/master/guides/conversation_logger.md). Let's greet the user with a card that includes video, text and buttons. We should also log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
+[Add a rich media card welcome message and log conversations to external datastore](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md). Let's greet the user with a card that includes video, text and buttons. We should also log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
 
 
 ### Additional Resources
