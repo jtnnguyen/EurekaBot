@@ -7,6 +7,8 @@ Within a few minutes, we'll be able to send a question to our new QnA Maker know
 We'll also explore [rich media cards](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-howto-add-media-attachments),
 [middleware](https://docs.microsoft.com/en-us/azure/bot-service/bot-builder-concept-middleware) for conversation logging
 and we'll tie it all together by [embedding the bot in a web page](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) so external users can interact with it.
+Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com/en-us/services/cosmos-db/) as NoSQL documents so we can analyze the quality of answers being returned by our bot.
+
 <br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" />
 
 ### Prerequisites
@@ -47,7 +49,7 @@ Let's connect all the dots now that we have a knowledge base and a working bot.
 <br/>
 
 ## Step 6: [Log conversation data to Cosmos DB using Middleware](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md)
-Log conversations to Cosmos DB using the SQL API. Let's log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
+Log conversations to [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) using the SQL API. Let's log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) for this.
 
 <br/>
 
@@ -58,10 +60,12 @@ In this section, we'll add some code so you can greet your users with a rich med
 
 
 ### Additional Resources
-
- - [Bot Builder Samples](https://github.com/Microsoft/BotBuilder-Samples) - tons of samples for all kinds of things in both C# & node
- - [Adaptive Cards](http://adaptivecards.io) - build and preview cards on various channels with this awesome site
- - [QnA Maker](http://qnamaker.ai) - Build out your own knowledge bases using QnA Maker 
- - [LUIS](http://luis.ai) - Extend your bots funcionality by using natural language processing to fulfill custom actions from your users
- - [Bot Builder Tools](http://aka.ms/bbtools) - CLI tools for __QnA Maker__, __LUIS__ and __Dispatch__ (combine multiple QnA & LUIS models for a comprehensive bot experience) etc
- - [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases horizontally with the click of a button 
+ - Used in this sample
+	- [Bot Builder Samples](https://github.com/Microsoft/BotBuilder-Samples) - tons of samples for all kinds of things in both C# & node
+	- [Bot Builder Tools](http://aka.ms/bbtools) - CLI tools for __QnA Maker__, __LUIS__ and __Dispatch__ (combine multiple QnA & LUIS models for a comprehensive bot experience) etc
+	- [Adaptive Cards](http://adaptivecards.io) - build and preview cards on various channels with this awesome site
+	- [QnA Maker](http://qnamaker.ai) - Build out your own knowledge bases using QnA Maker
+	- [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases horizontally with the click of a button 
+ 
+ - not used but applicable to bots
+	- [LUIS](http://luis.ai) - Extend your bots funcionality by using natural language processing to fulfill custom actions from your users
