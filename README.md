@@ -49,6 +49,8 @@ Let's connect all the dots now that we have a knowledge base and a working bot.
 ### Step 6: [Log conversation data to Cosmos DB using Middleware](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md)
 Log conversations to Cosmos DB using the SQL API. Let's log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
 
+<br/>
+
 
 ### Additional Resources
 
