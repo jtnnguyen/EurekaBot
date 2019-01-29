@@ -61,7 +61,6 @@
             "collection": "qna_history",
             "database": "eureka_bot",
             "key": "9DJ2bJmm3D4k72nwTYNSNFoXsMd73Dx0cu6YjmldHVw35nidAfQJOt4rhSEh6VMBfBzGWfX7kRAKNSxpM0RWDQ==",
-            "resourceGroup": "EurekaBotResourceGroup",
             "endpoint": "https://eurekacosmos1.documents.azure.com:443/"
         }
     ],
