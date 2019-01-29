@@ -34,7 +34,7 @@ namespace Microsoft.EurekaBot
 				{
 					//Make sure our Cosmos DB is all ready to go
 					await EnsureDatabaseConfigured();
-					
+
 					foreach (var activity in activities)
 					{
 						if (string.IsNullOrWhiteSpace(activity.Text))
@@ -85,12 +85,14 @@ namespace Microsoft.EurekaBot
 			var db = new Database { Id = service.Database };
 			var collection = new DocumentCollection { Id = service.Collection };
 
+			//Create the database
 			var result = await _cosmosClient.CreateDatabaseIfNotExistsAsync(db);
 
 			if (result.StatusCode == HttpStatusCode.Created || result.StatusCode == HttpStatusCode.OK)
 			{
+				//Create the collection
 				var dbLink = UriFactory.CreateDatabaseUri(service.Database);
-				var colResult = await _cosmosClient.CreateDocumentCollectionIfNotExistsAsync(dbLink, collection);
+				await _cosmosClient.CreateDocumentCollectionIfNotExistsAsync(dbLink, collection);
 			}
 		}
 	}
