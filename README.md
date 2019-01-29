@@ -10,8 +10,7 @@ and we'll tie it all together by [embedding the bot in a web page](https://docs.
 <br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" />
 
 ### Prerequisites
-- Azure Subscription with permissions to create resources
-  - If you don't already have a subscription, you can [sign up for a free 12 month Azure Subscription](https://azure.microsoft.com/en-us/free/) which includes up to $200 credit.
+- [Azure Subscription](https://azure.microsoft.com/en-us/free/) with permissions to create resources (click link to create a free 12mo subscription)
 - [VS Code](https://code.visualstudio.com) or [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) (community is fine)
 - [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) (latest)
 - [msbot command line tools](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/MSBot#installation)
