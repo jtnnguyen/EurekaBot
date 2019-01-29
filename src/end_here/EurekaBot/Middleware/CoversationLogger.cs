@@ -17,7 +17,7 @@ namespace Microsoft.EurekaBot
 	{
 		readonly BotConfiguration _botConfiguration;
 		static DocumentClient _cosmosClient;
-		Uri _collectionLink;
+		static Uri _collectionLink;
 
 		public ConversationLogger(BotConfiguration botConfiguration)
 		{
@@ -71,29 +71,29 @@ namespace Microsoft.EurekaBot
 			}
 		}
 
-		///Ensures the Cosmos database, collection and client are all created and assigned
-		async Task EnsureDatabaseConfigured()
-		{
-			var service = _botConfiguration.Services.FirstOrDefault(s => s.Type == ServiceTypes.CosmosDB) as CosmosDbService;
+//Ensures the Cosmos database, collection and client are all created and assigned
+async Task EnsureDatabaseConfigured()
+{
+	var service = _botConfiguration.Services.FirstOrDefault(s => s.Type == ServiceTypes.CosmosDB) as CosmosDbService;
 
-			if (_cosmosClient == null)
-			{
-				_collectionLink = UriFactory.CreateDocumentCollectionUri(service.Database, service.Collection);
-				_cosmosClient = new DocumentClient(new Uri(service.Endpoint), service.Key, ConnectionPolicy.Default);
-			}
+	if (_cosmosClient == null)
+	{
+		_collectionLink = UriFactory.CreateDocumentCollectionUri(service.Database, service.Collection);
+		_cosmosClient = new DocumentClient(new Uri(service.Endpoint), service.Key, ConnectionPolicy.Default);
+	}
 
-			var db = new Database { Id = service.Database };
-			var collection = new DocumentCollection { Id = service.Collection };
+	var db = new Database { Id = service.Database };
+	var collection = new DocumentCollection { Id = service.Collection };
 
-			//Create the database
-			var result = await _cosmosClient.CreateDatabaseIfNotExistsAsync(db);
+	//Create the database
+	var result = await _cosmosClient.CreateDatabaseIfNotExistsAsync(db);
 
-			if (result.StatusCode == HttpStatusCode.Created || result.StatusCode == HttpStatusCode.OK)
-			{
-				//Create the collection
-				var dbLink = UriFactory.CreateDatabaseUri(service.Database);
-				await _cosmosClient.CreateDocumentCollectionIfNotExistsAsync(dbLink, collection);
-			}
-		}
+	if (result.StatusCode == HttpStatusCode.Created || result.StatusCode == HttpStatusCode.OK)
+	{
+		//Create the collection
+		var dbLink = UriFactory.CreateDatabaseUri(service.Database);
+		await _cosmosClient.CreateDocumentCollectionIfNotExistsAsync(dbLink, collection);
+	}
+}
 	}
 }
