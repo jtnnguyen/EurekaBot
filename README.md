@@ -64,4 +64,4 @@ In this section, we'll add some code so you can greet your users with a rich med
  - [QnA Maker](http://qnamaker.ai) - Build out your own knowledge bases using QnA Maker 
  - [LUIS](http://luis.ai) - Extend your bots funcionality by using natural language processing to fulfill custom actions from your users
  - [Bot Builder Tools](http://aka.ms/bbtools) - CLI tools for __QnA Maker__, __LUIS__ and __Dispatch__ (combine multiple QnA & LUIS models for a comprehensive bot experience) etc
- - [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases with the click of a button 
+ - [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases horizontally with the click of a button 
