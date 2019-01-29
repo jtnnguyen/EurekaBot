@@ -18,6 +18,8 @@ and we'll tie it all together by [embedding the bot in a web page](https://docs.
 - [Github](https://github.com) or [Azure DevOps](https://devops.azure.com) repository 
 
 
+<br/>
+
 ### Step 1: [Check out the sample bot](https://eurekabot.azurewebsites.net/)
 Look for a chat icon in the bottom right corner and ask it a question based on this [FAQ](https://www.colorado.gov/pacific/dmv/faq-driver-license). This is the bot you'll be building out.
 
