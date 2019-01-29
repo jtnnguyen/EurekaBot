@@ -65,11 +65,7 @@ namespace Microsoft.EurekaBot
 			}
 			catch (DocumentClientException dce)
 			{
-				if (dce.StatusCode == HttpStatusCode.NotFound)
-				{
-					await EnsureDatabaseConfigured();
-					await RecordLogEntry(item);
-				}
+				Console.WriteLine($"Unable to save to Cosmos: {dce.GetBaseException()}");
 			}
 		}
 
