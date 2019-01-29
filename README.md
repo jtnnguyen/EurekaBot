@@ -23,7 +23,7 @@ Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com
 
 ## Step 1: [Check out the sample bot](https://eurekabot.azurewebsites.net/)
 Look for a chat icon in the bottom right corner and ask it a question based on this [FAQ](https://www.colorado.gov/pacific/dmv/faq-driver-license). This is the bot you'll be building out.
-<br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_chat_icon.jpg?raw=true" />
+<br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_chat_icon.jpg?raw=true" width="70%" />
 
 <br/>
 
