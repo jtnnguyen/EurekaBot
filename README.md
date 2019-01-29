@@ -45,7 +45,7 @@ and we'll tie it all together by [embedding the bot in a web page](https://docs.
 
 ### Step 6: Log conversation data to Cosmos DB using Middleware
 
-[Add a rich media card welcome message and log conversations to external datastore](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md). Let's greet the user with a card that includes video, text and buttons. We should also log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
+[Log conversations to Cosmos DB using the SQL API](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md). Let's log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
 
 
 ### Additional Resources
