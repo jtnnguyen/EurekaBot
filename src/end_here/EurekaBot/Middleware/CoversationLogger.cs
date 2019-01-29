@@ -32,7 +32,9 @@ namespace Microsoft.EurekaBot
 
 				if (!string.IsNullOrWhiteSpace(turnContext.Activity.Text))
 				{
+					//Make sure our Cosmos DB is all ready to go
 					await EnsureDatabaseConfigured();
+					
 					foreach (var activity in activities)
 					{
 						if (string.IsNullOrWhiteSpace(activity.Text))
@@ -69,19 +71,16 @@ namespace Microsoft.EurekaBot
 			}
 		}
 
-		void EnsureCosmosDbClient(CosmosDbService service)
-		{
-			if (_cosmosClient != null)
-				return;
-
-			_collectionLink = UriFactory.CreateDocumentCollectionUri(service.Database, service.Collection);
-			_cosmosClient = new DocumentClient(new Uri(service.Endpoint), service.Key, ConnectionPolicy.Default);
-		}
-
+		///Ensures the Cosmos database, collection and client are all created and assigned
 		async Task EnsureDatabaseConfigured()
 		{
 			var service = _botConfiguration.Services.FirstOrDefault(s => s.Type == ServiceTypes.CosmosDB) as CosmosDbService;
-			EnsureCosmosDbClient(service);
+
+			if (_cosmosClient == null)
+			{
+				_collectionLink = UriFactory.CreateDocumentCollectionUri(service.Database, service.Collection);
+				_cosmosClient = new DocumentClient(new Uri(service.Endpoint), service.Key, ConnectionPolicy.Default);
+			}
 
 			var db = new Database { Id = service.Database };
 			var collection = new DocumentCollection { Id = service.Collection };
