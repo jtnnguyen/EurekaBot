@@ -14,7 +14,7 @@
         },
         {
             "type": "blob",
-            "connectionString": "DefaultEndpointsProtocol=https;AccountName=eurekabotstorage;AccountKey=eGLWaUpWJ1RKyTSxxbfzRnf07WwzbYzh2uVM6oN9T4/PiOAbRrgyRvzdQvOCy6btUymHeqemy/h/Cz0hyqC9Uw==;",
+            "connectionString": "erGBdWf3kmtYIO3jukOsjA==!9YHR/gnh0WvYg3eDv1Gb1QQiCuQDyiAOdj4w6Q8aRaKwTUSo2Q/wLRa7L7GVsCvMwekVs6DccL9HogkX7m54Cpkrd6uHahkN786nD6VC1hhkVfPJBCIXnCxVERDHLpOrCpROMpyWIQitEaqJpMg6ywas7LmRDVsERc059Dq+98k+Fz+PUz8DRqZU2J+nlIacYPYFAkkqQDgZSYzn+xNBgQ8gWjo68uyT3bHsyUDTex8=",
             "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
             "subscriptionId": "b28c99c8-06ab-46c2-9e66-cf1874299828",
             "resourceGroup": "EurekaBotResourceGroup",
@@ -32,14 +32,14 @@
         {
             "type": "endpoint",
             "appId": "88c74309-f3d1-44d3-8a07-65ce671bc413",
-            "appPassword": "JaU$KIuaQRWM3(*DlX>GsqdR1f",
+            "appPassword": "pzTWGpescmfeNZ6QvslrXA==!MD2DX/IqzFgmkahEf9zVl22TQDhqDC70xCoAw2oy8ss=",
             "endpoint": "https://eurekabot.azurewebsites.net/api/messages",
             "name": "production",
             "id": "4"
         },
         {
             "type": "appInsights",
-            "instrumentationKey": "5b8b3f58-31ee-4fdb-9308-7a66c80b6a9d",
+            "instrumentationKey": "PJq5DLvcRGec8iXRxIG1Fg==!14CkCYjl6OdtTRkaWpKcp/H7/1eOhHee93tyCkN/GOiihU6TKjgIrqEb4g5fAf0M",
             "applicationId": "574ea72a-b195-4a57-8804-4c7bc4110f7b",
             "apiKeys": {},
             "tenantId": "72f988bf-86f1-41af-91ab-2d7cd011db47",
@@ -48,20 +48,20 @@
             "serviceName": "EurekaBotawkzlv",
             "id": "5"
         },
-		{
-			"type": "qna",
-			"endpointKey": "7871390f-735d-422b-8fdb-680a18119d8b",
-			"hostname": "https://eurekabotqnamaker.azurewebsites.net/qnamaker",
-			"kbId": "3c021717-06c7-43f7-a2ac-42f25e298aed"
-		},
+        {
+            "type": "qna",
+            "endpointKey": "5vJ3Z6wXmNnxoNgm+m/fsw==!Uk6SEwsMJyx5LCQPUam5sKakMcYFdGTpLlO7qzp2j24dqhdNbyEkensL0Y+QaHPn",
+            "hostname": "https://eurekabotqnamaker.azurewebsites.net/qnamaker",
+            "kbId": "3c021717-06c7-43f7-a2ac-42f25e298aed"
+        },
         {
             "type": "cosmosdb",
             "collection": "qna_history",
             "database": "eureka_bot",
-            "key": "4koHChh4cFIxXqbwZT9pp2t1AGR2hAAf9felE87MBbABnzet1qrqvUNprjW2X5wdXp3YQHIUHbqjsSXZqG5FKw==",
+            "key": "oX2eF9+8D/VlZ6qwLB3w3A==!LIZNdN7bvQGL47Y0pnOjlsCPM7Jq6zwd/WGE/ErMpYICBzYYMGC8CS8/jMWnwk5TI8hitwAON65tqU8v6WMslG8FCHeM2fDwlDHlIj8PJTRCpdW8Duf8zELECgS7HFAK",
             "endpoint": "https://eurekabotcosmos.documents.azure.com:443/"
-		}		
+        }
     ],
-    "padlock": "",
+    "padlock": "Lcm8TGOEWLJrxYONo7DDGw==!Ip8kMXksy3AhXYakWjRE9/8vRIYvkjb6ucYgppNq6oPo/lwQTS8qa4nimL3L6ZzG",
     "version": "2.0"
 }
