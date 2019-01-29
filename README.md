@@ -50,6 +50,11 @@ Log conversations to Cosmos DB using the SQL API. Let's log the questions and an
 
 <br/>
 
+## Step 7: [Add rich media cards to your bot code](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/rich_media_cards.md)
+In this section, we'll add some code so you can greet your users with a rich media card that includes video, text and buttons.
+
+<br/>
+
 
 ### Additional Resources
 
