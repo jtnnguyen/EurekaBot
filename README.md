@@ -42,7 +42,7 @@ and we'll tie it all together by [embedding the bot in a web page](https://docs.
 [Follow these instructions to integrate a QnA Maker knowledge base into a bot](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/integrate_qna_maker.md). Let's connect all the dots now that we have a knowledge base and a working bot.
 
 
-### Step 6: Add rich media cards and conversation logging to your bot
+### Step 6: Log conversation data to Cosmos using Middleware
 
 [Add a rich media card welcome message and log conversations to external datastore](https://github.com/rob-derosa/EurekaBotGuides/blob/master/guides/conversation_logger.md). Let's greet the user with a card that includes video, text and buttons. We should also log the questions and answers along with the probability score from QnA Maker so we can ensure our users are getting accurate results - we'll dig into Cosmos for this.
 
