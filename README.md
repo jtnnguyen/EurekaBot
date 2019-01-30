@@ -9,7 +9,8 @@ We'll also explore [rich media cards](https://docs.microsoft.com/en-us/azure/bot
 and we'll tie it all together by [embedding the bot in a web page](https://docs.microsoft.com/en-us/azure/bot-service/bot-service-channel-connect-webchat?view=azure-bot-service-4.0) so external users can interact with it.
 Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com/en-us/services/cosmos-db/) as NoSQL documents so we can analyze the quality of answers being returned by our bot.
 
-<br/><br/><img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" width="80%" />
+<br/><br/>
+<img src="https://github.com/rob-derosa/EurekaBotGuides/blob/master/screens/eureka_bot_sample_webchat.jpg?raw=true" width="80%" />
 
 ### Prerequisites
 - [Azure Subscription](https://azure.microsoft.com/en-us/free/) with permissions to create resources (click link to create a free 12mo subscription)
@@ -17,7 +18,6 @@ Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com
 - [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) (latest)
 - [msbot command line tools](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/MSBot#installation)
 - [Github](https://github.com) or [Azure DevOps](https://devops.azure.com) repository 
-
 
 <br/>
 
