@@ -14,6 +14,7 @@ Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com
 ### Prerequisites
 - [Azure Subscription](https://azure.microsoft.com/en-us/free/) with permissions to create resources (click link to create a free 12mo subscription)
 - [VS Code](https://code.visualstudio.com) or [Visual Studio 2017](https://visualstudio.microsoft.com/downloads/) (community is fine)
+- [.NET Core](https://dotnet.microsoft.com/download)
 - [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) (latest)
 - [msbot command line tools](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/MSBot#installation)
 - [Github](https://github.com) or [Azure DevOps](https://devops.azure.com) repository 
