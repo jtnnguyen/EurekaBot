@@ -14,7 +14,7 @@
     <PackageReference Include="Microsoft.Extensions.Logging.AzureAppServices" Version="2.1.1"/>
     <PackageReference Include="Microsoft.Bot.Builder.Azure" Version="*"/>
     <PackageReference Include="Microsoft.Bot.Builder.AI.QnA" Version="*"/>
-    <PackageReference Include="Microsoft.Azure.DocumentDB" Version="2.2.1"/>
+    <PackageReference Include="Microsoft.Azure.DocumentDB" Version="*"/>
   </ItemGroup>
   <ItemGroup>
     <None Update="*.bot">
