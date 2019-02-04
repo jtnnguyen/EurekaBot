@@ -17,7 +17,7 @@ Finally, we'll log the conversations in [Cosmos DB[](https://azure.microsoft.com
 - [.NET Core](https://dotnet.microsoft.com/download) (latest)
 - [Bot Framework Emulator](https://github.com/Microsoft/BotFramework-Emulator/releases) (latest)
 - [msbot command line tools](https://github.com/Microsoft/botbuilder-tools/tree/master/packages/MSBot#installation)
-- [Github](https://github.com) or [Azure DevOps](https://devops.azure.com) repository 
+- [Github](https://github.com) or [Azure DevOps](https://devops.azure.com) repository
 
 <br/>
 
@@ -67,5 +67,5 @@ In this section, we'll add some code so you can greet your users with a rich med
 	- [QnA Maker](http://qnamaker.ai) - Build out your own knowledge bases using QnA Maker
 	- [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases horizontally with the click of a button 
  
- - not used but applicable to bots
+ - not used in this sample but applicable to bots
 	- [LUIS](http://luis.ai) - Extend your bots funcionality by using natural language processing to fulfill custom actions from your users
