@@ -68,4 +68,4 @@ In this section, we'll add some code so you can greet your users with a rich med
 	- [Cosmos DB](https://azure.microsoft.com/en-us/services/cosmos-db/) - Add multi-region, global replication and scale to your NoSQL databases horizontally with the click of a button 
  
  - not used in this sample but applicable to bots
-	- [LUIS](http://luis.ai) - Extend your bots funcionality by using natural language processing to fulfill custom actions from your users
+	- [LUIS](http://luis.ai) - Extend your bots functionality by using natural language processing to fulfill custom actions from your users
